@@ -11,7 +11,10 @@ export default {
   },
   config: {
     Balances: {
-      totalSupply: UInt64.from(10000),
+      totalSupply: UInt64.from(10_000),
+    },
+    CustomBalances: {
+      totalSupply: UInt64.from(10_000),
     },
     ThimblerigLogic: {},
     RandzuLogic: {}
